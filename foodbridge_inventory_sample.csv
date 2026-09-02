@@ -1,0 +1,37 @@
+name,category,quantity,unit,expiry_date,donor,barcode,notes
+Whole Wheat Bread,Bakery,32,kg,2026-09-04,City Bakery,FB-1002,Fresh bread donation
+Prepared Veg Meals,Cooked Meals,48,kg,2026-09-03,Hotel Sunshine,FB-1003,Prepared vegetarian meals
+Rice & Curry,Cooked Meals,28,kg,2026-09-02,Campus Canteen,FB-1004,Cooked rice and curry
+Yogurt Cups,Dairy,18,kg,2026-09-01,Dairy Delight,FB-1006,Assorted yogurt cups
+Seasonal Vegetable,Fruits & Veg,45,kg,2026-09-15,Farm Fresh,07107020808,Seasonal fresh vegetables
+Bananas,Fruits & Veg,25,kg,2026-09-05,Green Harvest,FB-1007,Ripe bananas
+Milk Packets,Dairy,20,litre,2026-09-03,Fresh Dairy Co,FB-1008,Sealed milk packets
+Chapati,Bakery,15,kg,2026-09-02,Community Kitchen,FB-1009,Fresh chapatis
+Mixed Fruit Boxes,Fruits & Veg,30,kg,2026-09-07,City Market,FB-1010,Mixed seasonal fruits
+Lemon Rice,Cooked Meals,22,kg,2026-09-04,College Mess,FB-1011,Prepared lemon rice
+Paneer,Dairy,12,kg,2026-09-06,Dairy Delight,FB-1012,Fresh paneer
+Tomatoes,Fruits & Veg,35,kg,2026-09-08,Farm Fresh,FB-1013,Fresh tomatoes
+Idli,Cooked Meals,18,kg,2026-09-03,South Kitchen,FB-1014,Steamed idli
+Vegetable Biryani,Cooked Meals,40,kg,2026-09-04,Grand Hotel,FB-1015,Prepared vegetable biryani
+Curd,Dairy,16,kg,2026-09-05,Dairy Delight,FB-1016,Fresh curd containers
+Apples,Fruits & Veg,27,kg,2026-09-12,Fresh Mart,FB-1017,Red apples
+Oranges,Fruits & Veg,24,kg,2026-09-10,Fresh Mart,FB-1018,Fresh oranges
+Potatoes,Fruits & Veg,50,kg,2026-09-20,Farm Fresh,FB-1019,Fresh potatoes
+Carrots,Fruits & Veg,22,kg,2026-09-11,Farm Fresh,FB-1020,Fresh carrots
+Samosa,Cooked Meals,14,kg,2026-09-02,Campus Canteen,FB-1021,Prepared vegetable samosas
+Dal Tadka,Cooked Meals,26,kg,2026-09-03,Community Kitchen,FB-1022,Cooked lentil curry
+White Bread,Bakery,20,kg,2026-09-05,Sunrise Bakery,FB-1023,Packaged white bread
+Buns,Bakery,18,kg,2026-09-06,Sunrise Bakery,FB-1024,Fresh bakery buns
+Cheese Blocks,Dairy,10,kg,2026-09-18,Dairy Delight,FB-1025,Sealed cheese blocks
+Butter,Dairy,8,kg,2026-09-16,Fresh Dairy Co,FB-1026,Packaged butter
+Mangoes,Fruits & Veg,32,kg,2026-09-09,Green Harvest,FB-1027,Ripe mangoes
+Spinach,Fruits & Veg,12,kg,2026-09-03,Farm Fresh,FB-1028,Fresh spinach
+Cabbage,Fruits & Veg,20,kg,2026-09-14,Farm Fresh,FB-1029,Fresh cabbage
+Pulao,Cooked Meals,35,kg,2026-09-04,College Mess,FB-1030,Prepared vegetable pulao
+Dosa Batter,Cooked Meals,25,kg,2026-09-05,South Kitchen,FB-1031,Fresh dosa batter
+Rasam,Cooked Meals,15,kg,2026-09-03,South Kitchen,FB-1032,Prepared rasam
+Coconut,Fruits & Veg,18,kg,2026-09-17,Green Harvest,FB-1033,Fresh coconuts
+Papaya,Fruits & Veg,21,kg,2026-09-08,Green Harvest,FB-1034,Ripe papayas
+Cream,Dairy,9,litre,2026-09-07,Fresh Dairy Co,FB-1035,Fresh cream
+Muffins,Bakery,11,kg,2026-09-05,Sunrise Bakery,FB-1036,Assorted muffins
+Cookies,Bakery,16,kg,2026-09-25,Sunrise Bakery,FB-1037,Packaged cookies
