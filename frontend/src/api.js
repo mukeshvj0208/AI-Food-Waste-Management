@@ -1,10 +1,17 @@
-const BASE = import.meta.env.VITE_API_URL || '/api';
+const LOCAL_API_BASE = '/api';
+const PRODUCTION_API_BASE = 'https://ai-food-waste-management-4ogo.onrender.com/api';
+
+// Vite proxies /api to the local FastAPI server during development. In a
+// deployed build, requests must go directly to the public backend instead.
+const BASE = (import.meta.env.VITE_API_URL || (import.meta.env.DEV ? LOCAL_API_BASE : PRODUCTION_API_BASE))
+  .replace(/\/+$/, '');
+
 async function request(path, options = {}) {
   let response;
   try {
     response = await fetch(`${BASE}${path}`, options);
   } catch {
-    throw new Error(`FoodBridge API is unavailable at ${BASE}. Start the backend on port 8010.`);
+    throw new Error(`FoodBridge API is unavailable at ${BASE}.`);
   }
   if (!response.ok) { const body = await response.json().catch(() => ({})); throw new Error(body.detail || 'Request failed'); }
   return response.status === 204 ? null : response.json();

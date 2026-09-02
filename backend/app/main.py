@@ -20,7 +20,16 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(title="FoodBridge API", version="0.1.0", lifespan=lifespan)
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5174", "http://127.0.0.1:5174"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://ai-food-waste-management.vercel.app",
+        "http://localhost:5174",
+        "http://127.0.0.1:5174",
+    ],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 def item_dict(row):
